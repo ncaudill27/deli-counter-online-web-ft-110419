@@ -20,6 +20,6 @@ def now_serving(nelsonz_deli)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{nelsonz_deli[0]}."
-    nelsonz_deli.pop
+    nelsonz_deli.shift
   end
 end
