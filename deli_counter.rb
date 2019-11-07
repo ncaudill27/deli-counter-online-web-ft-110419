@@ -20,6 +20,6 @@ def now_serving(nelsonz_deli)
     puts "Fuck are the people at?"
   else
     nelsonz_deli.pop
-    puts "Yo, #{nelsonz_deli[0]} you're up"
+    puts "Currently serving #{nelsonz_deli[0]}."
   end
 end
