@@ -1,5 +1,5 @@
 def line(nelsonz_deli)
-  if nelsonz_deli.size > 0
+  if nelsonz_deli.empty?
     line = "The line is currently:"
     nelsonz_deli.each_with_index { |customer, i| line << " #{i+1}. #{customer}" }
     puts line
