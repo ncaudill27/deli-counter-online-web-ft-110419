@@ -17,7 +17,7 @@ end
 
 def now_serving(nelsonz_deli)
   if nelsonz_deli.empty?
-    puts "Fuck are the people at?"
+    puts "There is nobody waiting to be served!"
   else
     nelsonz_deli.pop
     puts "Currently serving #{nelsonz_deli[0]}."
