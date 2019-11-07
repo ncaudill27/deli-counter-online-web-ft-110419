@@ -21,4 +21,5 @@ def now_serving(nelsonz_deli)
   else
     nelsonz_deli.pop
     puts "Yo, #{nelsonz_deli[0]} you're up"
+  end
 end
