@@ -16,5 +16,9 @@ def take_a_number(nelsonz_deli, customer)
 end
 
 def now_serving(nelsonz_deli)
-  nelsonz_deli
+  if nelsonz_deli.empty?
+    puts "Fuck are the people at?"
+  else
+    nelsonz_deli.pop
+    puts "Yo, #{nelsonz_deli[0]} you're up"
 end
